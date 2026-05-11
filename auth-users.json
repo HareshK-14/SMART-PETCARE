@@ -1,0 +1,55 @@
+{
+  "users": {
+    "hareeshraj15@gmail.com": {
+      "id": 1773240972762,
+      "email": "hareeshraj15@gmail.com",
+      "fullName": "Haresh",
+      "phone": "+919345564511",
+      "passwordHash": "$2a$10$bCVB59mwY0ecsdnvJBCYC.N.ScEa5VQtZQJBNgmuz7sXE1VHXnHvq",
+      "role": "OWNER",
+      "isEmailVerified": true,
+      "createdAt": "2026-03-11T14:56:12.762Z"
+    },
+    "hareshk1401@gmail.com": {
+      "id": 1773243498914,
+      "email": "hareshk1401@gmail.com",
+      "fullName": "Haresh",
+      "phone": "+919345564511",
+      "passwordHash": "$2a$10$k.Psou5L83htDUYRXBEPTuDBO5tU0KYQhO1XWyzwUDabbmQYb0g9y",
+      "role": "OWNER",
+      "isEmailVerified": true,
+      "createdAt": "2026-03-11T15:38:18.914Z"
+    },
+    "mrsenthilkumar756@gmail.com": {
+      "id": 1773244100716,
+      "email": "mrsenthilkumar756@gmail.com",
+      "fullName": "Haresh",
+      "phone": "+919345564511",
+      "passwordHash": "$2a$10$MDCYrbCDLFFZpFO9v9qXleNNoDLFX3KbrRk7fibCmEe.rXzJSI602",
+      "role": "OWNER",
+      "isEmailVerified": false,
+      "createdAt": "2026-03-11T15:48:20.716Z"
+    },
+    "vkharshikaa@gmail.com": {
+      "id": 1773244248769,
+      "email": "vkharshikaa@gmail.com",
+      "fullName": "Haresh",
+      "phone": "+919345564511",
+      "passwordHash": "$2a$10$znJJ/pR5SB9Sta6SMH/I.uE.8WlWZe4BZ55GJT0QUYl7t3ZEFgP5C",
+      "role": "OWNER",
+      "isEmailVerified": false,
+      "createdAt": "2026-03-11T15:50:48.769Z"
+    },
+    "harshikaa3@gmail.com": {
+      "id": 1773244824229,
+      "email": "harshikaa3@gmail.com",
+      "fullName": "Haresh",
+      "phone": "+919345564511",
+      "passwordHash": "$2a$10$4kAagus9DUp75qYLBEv/RuNprX3.rpYuV1k9zUf/JFWpS0M9/8ykG",
+      "role": "OWNER",
+      "isEmailVerified": true,
+      "createdAt": "2026-03-11T16:00:24.229Z"
+    }
+  },
+  "tokens": {}
+}

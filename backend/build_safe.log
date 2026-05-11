@@ -1,0 +1,126 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.petcare:backend >-------------------------
+[INFO] Building backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.5.0:clean (default-clean) @ backend ---
+[INFO] Deleting C:\Users\haree\OneDrive\Documents\a html\pet\backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ backend ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 60 source files with javac [debug parameters release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/security/JwtUtils.java:[3,34] package com.petcare.backend.entity does not exist
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/controller/PaymentController.java:[3,34] package com.petcare.backend.entity does not exist
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/controller/PaymentController.java:[4,34] package com.petcare.backend.entity does not exist
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/repository/PaymentRepository.java:[3,34] package com.petcare.backend.entity does not exist
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/repository/PaymentRepository.java:[10,58] cannot find symbol
+  symbol: class Payment
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/repository/PaymentRepository.java:[11,14] cannot find symbol
+  symbol:   class Payment
+  location: interface com.petcare.backend.repository.PaymentRepository
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/controller/ProductController.java:[3,34] package com.petcare.backend.entity does not exist
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/controller/ProductController.java:[20,32] cannot find symbol
+  symbol:   class Product
+  location: class com.petcare.backend.controller.ProductController
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/controller/ProductController.java:[25,32] cannot find symbol
+  symbol:   class Product
+  location: class com.petcare.backend.controller.ProductController
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/controller/ProductController.java:[30,63] cannot find symbol
+  symbol:   class Product
+  location: class com.petcare.backend.controller.ProductController
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/controller/ProductController.java:[30,27] cannot find symbol
+  symbol:   class Product
+  location: class com.petcare.backend.controller.ProductController
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/controller/VeterinarianController.java:[3,34] package com.petcare.backend.entity does not exist
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/repository/VeterinarianRepository.java:[3,34] package com.petcare.backend.entity does not exist
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/repository/VeterinarianRepository.java:[10,63] cannot find symbol
+  symbol: class Veterinarian
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/controller/VeterinarianController.java:[20,32] cannot find symbol
+  symbol:   class Veterinarian
+  location: class com.petcare.backend.controller.VeterinarianController
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/repository/VeterinarianRepository.java:[11,14] cannot find symbol
+  symbol:   class Veterinarian
+  location: interface com.petcare.backend.repository.VeterinarianRepository
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/repository/MedicalRecordRepository.java:[3,34] package com.petcare.backend.entity does not exist
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/repository/MedicalRecordRepository.java:[10,64] cannot find symbol
+  symbol: class MedicalRecord
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/repository/MedicalRecordRepository.java:[11,10] cannot find symbol
+  symbol:   class MedicalRecord
+  location: interface com.petcare.backend.repository.MedicalRecordRepository
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/repository/VaccinationRepository.java:[3,34] package com.petcare.backend.entity does not exist
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/repository/VaccinationRepository.java:[10,62] cannot find symbol
+  symbol: class Vaccination
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/repository/VaccinationRepository.java:[11,10] cannot find symbol
+  symbol:   class Vaccination
+  location: interface com.petcare.backend.repository.VaccinationRepository
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/security/AuthEntryPointJwt.java:[3,38] package com.fasterxml.jackson.databind does not exist
+[INFO] 23 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.804 s
+[INFO] Finished at: 2026-03-09T15:26:25+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.1:compile (default-compile) on project backend: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/security/JwtUtils.java:[3,34] package com.petcare.backend.entity does not exist
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/controller/PaymentController.java:[3,34] package com.petcare.backend.entity does not exist
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/controller/PaymentController.java:[4,34] package com.petcare.backend.entity does not exist
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/repository/PaymentRepository.java:[3,34] package com.petcare.backend.entity does not exist
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/repository/PaymentRepository.java:[10,58] cannot find symbol
+[ERROR]   symbol: class Payment
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/repository/PaymentRepository.java:[11,14] cannot find symbol
+[ERROR]   symbol:   class Payment
+[ERROR]   location: interface com.petcare.backend.repository.PaymentRepository
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/controller/ProductController.java:[3,34] package com.petcare.backend.entity does not exist
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/controller/ProductController.java:[20,32] cannot find symbol
+[ERROR]   symbol:   class Product
+[ERROR]   location: class com.petcare.backend.controller.ProductController
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/controller/ProductController.java:[25,32] cannot find symbol
+[ERROR]   symbol:   class Product
+[ERROR]   location: class com.petcare.backend.controller.ProductController
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/controller/ProductController.java:[30,63] cannot find symbol
+[ERROR]   symbol:   class Product
+[ERROR]   location: class com.petcare.backend.controller.ProductController
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/controller/ProductController.java:[30,27] cannot find symbol
+[ERROR]   symbol:   class Product
+[ERROR]   location: class com.petcare.backend.controller.ProductController
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/controller/VeterinarianController.java:[3,34] package com.petcare.backend.entity does not exist
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/repository/VeterinarianRepository.java:[3,34] package com.petcare.backend.entity does not exist
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/repository/VeterinarianRepository.java:[10,63] cannot find symbol
+[ERROR]   symbol: class Veterinarian
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/controller/VeterinarianController.java:[20,32] cannot find symbol
+[ERROR]   symbol:   class Veterinarian
+[ERROR]   location: class com.petcare.backend.controller.VeterinarianController
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/repository/VeterinarianRepository.java:[11,14] cannot find symbol
+[ERROR]   symbol:   class Veterinarian
+[ERROR]   location: interface com.petcare.backend.repository.VeterinarianRepository
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/repository/MedicalRecordRepository.java:[3,34] package com.petcare.backend.entity does not exist
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/repository/MedicalRecordRepository.java:[10,64] cannot find symbol
+[ERROR]   symbol: class MedicalRecord
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/repository/MedicalRecordRepository.java:[11,10] cannot find symbol
+[ERROR]   symbol:   class MedicalRecord
+[ERROR]   location: interface com.petcare.backend.repository.MedicalRecordRepository
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/repository/VaccinationRepository.java:[3,34] package com.petcare.backend.entity does not exist
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/repository/VaccinationRepository.java:[10,62] cannot find symbol
+[ERROR]   symbol: class Vaccination
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/repository/VaccinationRepository.java:[11,10] cannot find symbol
+[ERROR]   symbol:   class Vaccination
+[ERROR]   location: interface com.petcare.backend.repository.VaccinationRepository
+[ERROR] /C:/Users/haree/OneDrive/Documents/a html/pet/backend/src/main/java/com/petcare/backend/security/AuthEntryPointJwt.java:[3,38] package com.fasterxml.jackson.databind does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-light text-dark font-sans m-0 p-0 antialiased;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-glass rounded-2xl;
+  }
+  
+  .glass-card-dark {
+    @apply bg-darkCard/80 backdrop-blur-md border border-slate-700 shadow-glass rounded-2xl;
+  }
+
+  .btn-primary {
+    @apply px-4 py-2 bg-primary hover:bg-indigo-600 text-white rounded-lg transition-all duration-300 shadow-lg hover:shadow-indigo-500/30 transform hover:-translate-y-1 font-medium;
+  }
+
+  .btn-secondary {
+    @apply px-4 py-2 bg-secondary hover:bg-teal-600 text-white rounded-lg transition-all duration-300 shadow-lg hover:shadow-teal-500/30 transform hover:-translate-y-1 font-medium;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-2 bg-white border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9; 
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1; 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8; 
+}
+
+/* Gallery auto-scroll */
+@keyframes scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Fade-in */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-out;
+}
